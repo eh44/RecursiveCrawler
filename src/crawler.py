@@ -89,7 +89,8 @@ if __name__ == "__main__":
         try:
             maxDepth = int(sys.argv[2])
         except TypeError:
-            print(end="")
+             print("Usage Error: Max Depth must be an integer", file=sys.stderr)
+             exit(0)
     plural = 's' if maxDepth != 1 else ''  	  	  
     print(f"Crawling from {url} to a maximum depth of {maxDepth} link{plural}")  	  	  
     startTime = time.time()

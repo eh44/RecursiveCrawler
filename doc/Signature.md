@@ -1,4 +1,3 @@
-*TODO: Delete these example entries and replace with your own*
 
 | Date        | Time Spent | Events
 |-------------|------------|--------------------
